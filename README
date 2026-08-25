@@ -1,0 +1,40 @@
+
+
+Project for producing "Public sector employment in Scotland: employment by organisation" publcation tables and dataset.
+Created August 2026
+
+Publication link: https://www.gov.scot/collections/public-sector-employment-by-organisation-statistics/ 
+
+About:
+This project reads in the raw data return, cleans and formats into a single dataset. It then applies disclosure control to suppress any non-consenting organisations
+and prevent secondary disclosure. This includes rounding to the nearest five. It then removes any incorrect data (identified from QA checks of the processed data by the individual organisation) to produce the final dataset.
+Publication scripts then produce the publicaton table.
+
+The project contains self contained QA scripts that check against aggregate data and the previous publication dataset.
+
+The project also contains a script for the mail merge - the script creates excerpts of processed data to send to each individual organisation for QA.
+
+
+Data source: 
+The data source is a combined return from ONS/SG. The data are published at aggregate level in Public Sector Employment in Scotland: https://www.gov.scot/collections/public-sector-employment-statistics/ 
+
+Individual organisational FTE and headcount data are confidential and are restricted access to named individuals on a data sharing agreement. 
+
+
+
+How to run:
+First - set up filepaths and other parameters in setup/config.R 
+
+To produce the dataset: 
+Run "data_processing_scripts/applying data corrections.R" - output is an internal excel file
+
+To produce the publication table:
+Run "publication/create publications.R"
+
+To run QA:
+select scripts in "data_processing_scripts/qa" folder.
+
+
+
+Contact:
+CIMA@gov.scot
