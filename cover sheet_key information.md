@@ -1,7 +1,0 @@
-Organisations that the Scottish Government does not have consent to publish are excluded. Figures for a small number of consenting organisations are suppressed to prevent potential secondary disclosure of organisations that did not consent to publish. Secondary disclosure of excluded organisations could otherwise be possible by taking the difference from category totals in Table 1 and Table 2, which were first published in the "Public Sector Employment in Scotland Statistics" publication. Suppressed and excluded organisations do not appear in the tables.
-
-It is important to note that classifications for organisations are at 2026 Quarter 1 and apply for the entire time series. This may differ from category totals in Table 1 and Table 2, which were first published in the "Public Sector Employment in Scotland Statistics" publication. Category totals incorporate instances where an organisation may have been reclassified over the same period.
-
-Figures for individual organisations may not sum to category totals in Table 1 and Table 2, which were first published in the "Public Sector Employment in Scotland Statistics" publication. Reasons include: incomplete coverage, classification changes over time, and revisions. It is advised to use the provided category totals in Table 1 and Table 2.
-
-Figures are not seasonally adjusted and so it is not recommended to make quarter on quarter comparisons.
